@@ -8,7 +8,7 @@ echo "${MODEL_DIR}"
 python3 main.py --token_level word-level \
                   --model_type phobert \
                   --model_dir $MODEL_DIR \
-                  --data_dir PhoATIS \
+                  --data_dir atis \
                   --seed $s \
                   --do_train \
                   --do_eval \
