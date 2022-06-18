@@ -5,10 +5,10 @@ echo "${lr}"
 export MODEL_DIR=JointBERT-CRF_PhoBERTencoder
 export MODEL_DIR=$MODEL_DIR"/"$lr"/"$c"/"$s
 echo "${MODEL_DIR}"
-python3 main.py --token_level word-level \
+python3 main.py --token_level atis \
                   --model_type phobert \
                   --model_dir $MODEL_DIR \
-                  --data_dir atis \
+                  --data_dir PhoATIS\
                   --seed $s \
                   --do_train \
                   --do_eval \
