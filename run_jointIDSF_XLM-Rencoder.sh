@@ -8,7 +8,7 @@ echo "${lr}"
 export MODEL_DIR=JointIDSF_XLM-Rencoder
 export MODEL_DIR=$MODEL_DIR"/"$lr"/"$c"/"$s
 echo "${MODEL_DIR}"
-python3 main.py --token_level syllable-level \
+python3 main.py --token_level word-level \
                   --model_type xlmr \
                   --model_dir $MODEL_DIR \
                   --data_dir PhoATIS \

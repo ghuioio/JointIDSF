@@ -1,6 +1,7 @@
 PAD
 UNK
 O
+
 B-aircraft_code
 B-airline_code
 B-airline_name
